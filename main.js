@@ -14,7 +14,7 @@ function showTime() {
 
   hour = hour % 12 || 12;
 
-  time.textContent = `${addZero(hour)}:${min}:${sec}${ampm}`;
+  time.textContent = `${addZero(hour)}:${addZero(min)}:${addZero(sec)}${ampm}`;
   setTimeout(showTime, 1000);
 }
 function addZero(n) {
