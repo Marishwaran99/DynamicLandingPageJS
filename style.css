@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  letter-spacing: 0.5px;
+}
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+h1 {
+  margin-bottom: 3rem;
+  font-weight: 200;
+}
+time {
+  font-size: 4.5rem;
+}
+.greetings {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
